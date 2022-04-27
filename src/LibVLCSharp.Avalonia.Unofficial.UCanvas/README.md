@@ -24,24 +24,24 @@ This **Unofficial.Canvas project** allows to show multiple moveable Avalonia Use
 
 To do this, it **exposes 2 methods**:
 
-`**AddXAMLContentIfAny(bool isMoveable)**`
+`AddXAMLContentIfAny(bool isMoveable)`  
 VideoView allows to define its own *content property* in XAML. 
 This method adds the VideoView content to the video scene.
 IsMoveable parameter defines whether the user will be able to drag the content over the scene.
 
-`**AddUserControlToOverlay(
-    UserControl userControl,
-    Action<object> mouseEnter = null,
-    Action<object> mouseLeave = null,
-    VerticalAlignment? va = null,
-    HorizontalAlignment? ha = null,
-    double marginLeft = 0,
-    double marginTop = 0,
-    double marginRight = 0,
-    double marginBottom = 0,
-    double opacity = 1,
-    bool isMoveable = false
-)**`
+`AddUserControlToOverlay(  
+    UserControl userControl,  
+    Action<object> mouseEnter = null,  
+    Action<object> mouseLeave = null,  
+    VerticalAlignment? va = null,  
+    HorizontalAlignment? ha = null,  
+    double marginLeft = 0,  
+    double marginTop = 0,  
+    double marginRight = 0,  
+    double marginBottom = 0,  
+    double opacity = 1,  
+    bool isMoveable = false  
+)`  
 
 This method adds whatever custom UserControl to the video scene. 
 The parameters are pretty self explanatory.
