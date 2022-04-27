@@ -24,26 +24,26 @@ This **Unofficial.Canvas project** allows to show multiple moveable Avalonia Use
 
 To do this, it **exposes 2 methods**:
 
-**AddXAMLContentIfAny(bool isMoveable)** 
-VideoView allows to define its own *content property* in XAML. 
-This method adds the VideoView content to the video scene.
-`IsMoveable` parameter defines whether the user will be able to drag the content over the scene.
+- **AddXAMLContentIfAny(bool isMoveable)** 
+  VideoView allows to define its own *content property* in XAML. 
+  This method adds the VideoView content to the video scene.
+  `IsMoveable` parameter defines whether the user will be able to drag the content over the scene.
 
-**AddUserControlToOverlay(  
-    UserControl userControl,  
-    Action<object> mouseEnter = null,  
-    Action<object> mouseLeave = null,  
-    VerticalAlignment? va = null,  
-    HorizontalAlignment? ha = null,  
-    double marginLeft = 0,  
-    double marginTop = 0,  
-    double marginRight = 0,  
-    double marginBottom = 0,  
-    double opacity = 1,  
-    bool isMoveable = false  
-)**
+- **AddUserControlToOverlay(  
+      UserControl userControl,  
+      Action<object> mouseEnter = null,  
+      Action<object> mouseLeave = null,  
+      VerticalAlignment? va = null,  
+      HorizontalAlignment? ha = null,  
+      double marginLeft = 0,  
+      double marginTop = 0,  
+      double marginRight = 0,  
+      double marginBottom = 0,  
+      double opacity = 1,  
+      bool isMoveable = false  
+  )**
 
-This method adds whatever custom UserControl to the video scene. 
+This method adds whatever custom UserControl to the video scene with custom parameters. 
 The parameters are pretty self explanatory.
 
-For more information about usage explore the test project in the [LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples](https://github.com/radiolondra/libvlcsharp/tree/3.x/samples/LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples) folder.
+For more information about usage, explore the test project in the [LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples](https://github.com/radiolondra/libvlcsharp/tree/3.x/samples/LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples) folder.
