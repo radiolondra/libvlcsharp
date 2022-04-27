@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaVLCMultipleControls", "AvaVLCMultipleControls\AvaVLCMultipleControls.csproj", "{97EAEF19-AA03-41E3-A8DA-4BDCF6396E81}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibVLCSharp.Avalonia.UCanvas", "..\..\..\src\LibVLCSharp.Avalonia.Unofficial.UCanvas\LibVLCSharp.Avalonia.UCanvas.csproj", "{239DEDAE-A52B-4AE3-B4A9-3A74BA2A6AB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97EAEF19-AA03-41E3-A8DA-4BDCF6396E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97EAEF19-AA03-41E3-A8DA-4BDCF6396E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97EAEF19-AA03-41E3-A8DA-4BDCF6396E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97EAEF19-AA03-41E3-A8DA-4BDCF6396E81}.Release|Any CPU.Build.0 = Release|Any CPU
+		{239DEDAE-A52B-4AE3-B4A9-3A74BA2A6AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{239DEDAE-A52B-4AE3-B4A9-3A74BA2A6AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{239DEDAE-A52B-4AE3-B4A9-3A74BA2A6AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{239DEDAE-A52B-4AE3-B4A9-3A74BA2A6AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEC09816-B76E-4566-8595-391F2D83AA6B}
+	EndGlobalSection
+EndGlobal
