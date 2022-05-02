@@ -27,7 +27,7 @@ To do this, it **exposes 2 methods**:
 - **AddXAMLContentIfAny(bool isMoveable)** 
   
   VideoView allows to define its own *content property* in XAML. 
-  This method adds by code the VideoView content to the video scene.
+  This method adds the VideoView content to the video scene by code.
   `IsMoveable` parameter defines whether the user will be able to drag the content over the scene.
   
 - **AddUserControlToOverlay(
@@ -43,7 +43,7 @@ To do this, it **exposes 2 methods**:
   double opacity = 1,  
   bool isMoveable = false )**  
   
-  This method adds whatever custom UserControl to the video scene with custom parameters by code. 
+  This method adds whatever custom UserControl(s) (different from the standard VideoView *content property* defined in XAML) to the video scene with custom parameters by code. 
   The parameters are pretty self explanatory.
 
 For more information about usage, explore the test project in the [LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples](https://github.com/radiolondra/libvlcsharp/tree/3.x/samples/LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples) folder.
