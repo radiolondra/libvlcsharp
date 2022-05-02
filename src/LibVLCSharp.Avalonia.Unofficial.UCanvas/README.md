@@ -2,7 +2,7 @@
 
 The **Unofficial.Canvas** [Avalonia](https://github.com/AvaloniaUI/Avalonia) views for [LibVLCSharp](https://github.com/radiolondra/libvlcsharp/tree/3.x/README.md) (still in development and test).
 
-This package contains the views that allows to display multiple draggable controls over the scene of a video played with [LibVLCSharp](../LibVLCSharp/README.md) in an Avalonia app.
+This package contains the views that **allows to display multiple draggable controls over the scene of a video** played with [LibVLCSharp](../LibVLCSharp/README.md) in an Avalonia app.
 
 This package depends on [LibVLCSharp](https://github.com/radiolondra/libvlcsharp/tree/3.x/README.md) as well as [Avalonia](https://github.com/AvaloniaUI/Avalonia).
 
