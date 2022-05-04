@@ -47,3 +47,8 @@ To do this, it **exposes 2 methods**:
   The parameters are pretty self explanatory.
 
 For more information about usage, explore the test project in the [LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples](https://github.com/radiolondra/libvlcsharp/tree/3.x/samples/LibVLCSharp.Avalonia.Unofficial.UCanvas.Samples) folder.
+    
+    
+
+https://user-images.githubusercontent.com/20070559/166650915-99ae31d2-dcd5-4d82-a524-eeba5582f8de.mp4
+
