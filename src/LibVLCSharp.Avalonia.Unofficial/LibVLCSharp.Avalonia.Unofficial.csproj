@@ -5,8 +5,7 @@
     <Description>LibVLCSharp is a cross-platform audio and video API for .NET platforms based on VideoLAN's LibVLC Library. It provides a comprehensive multimedia API that can be used across mobile, server and desktop to render video and output audio. Mono, .NET Framework and .NET Core runtimes are supported.
 
 LibVLCSharp.Avalonia.Unofficial contains the integration with Avalonia.
-This package contains the views that allows to display a video played with LibVLCSharp
-in a Avalonia app.
+This package contains the views that allows to display a video played with LibVLCSharp in a Avalonia app.
 
 This package depends on LibVLCSharp as well as Avalonia.
 

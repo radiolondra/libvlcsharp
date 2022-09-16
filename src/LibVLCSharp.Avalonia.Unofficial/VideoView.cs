@@ -20,6 +20,7 @@ using Avalonia.Input;
 using System.Diagnostics;
 using Avalonia.Media.Immutable;
 
+
 namespace LibVLCSharp.Avalonia.Unofficial
 {
     /// <summary>
