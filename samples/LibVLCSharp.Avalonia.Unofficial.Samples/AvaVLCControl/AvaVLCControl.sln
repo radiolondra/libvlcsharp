@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaVLCControl", "AvaVLCControl\AvaVLCControl.csproj", "{0164A1F3-194C-4C1C-83F1-BE6903B592B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AvaVLCControl", "AvaVLCControl\AvaVLCControl.csproj", "{0164A1F3-194C-4C1C-83F1-BE6903B592B4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibVLCSharp.Avalonia.Unofficial", "..\..\..\src\LibVLCSharp.Avalonia.Unofficial\LibVLCSharp.Avalonia.csproj", "{F3A8147D-C9B5-4C2F-9BC0-7B32A3372DDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibVLCSharp.Avalonia.Unofficial", "..\LibVLCSharp.Avalonia.Unofficial\LibVLCSharp.Avalonia.Unofficial.csproj", "{D4277B76-C88C-49B2-AB8B-C75FA60EB423}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{0164A1F3-194C-4C1C-83F1-BE6903B592B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0164A1F3-194C-4C1C-83F1-BE6903B592B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0164A1F3-194C-4C1C-83F1-BE6903B592B4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F3A8147D-C9B5-4C2F-9BC0-7B32A3372DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F3A8147D-C9B5-4C2F-9BC0-7B32A3372DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F3A8147D-C9B5-4C2F-9BC0-7B32A3372DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F3A8147D-C9B5-4C2F-9BC0-7B32A3372DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4277B76-C88C-49B2-AB8B-C75FA60EB423}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4277B76-C88C-49B2-AB8B-C75FA60EB423}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4277B76-C88C-49B2-AB8B-C75FA60EB423}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4277B76-C88C-49B2-AB8B-C75FA60EB423}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

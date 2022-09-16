@@ -33,11 +33,11 @@ namespace AvaVLCControl.ViewModels
                 
 
                 _libVLC = new LibVLC(
-                    enableDebugLogs: true                    
+                    enableDebugLogs: true
                     );
                 _libVLC.Log += VlcLogger_Event;
 
-                MediaPlayer = new MediaPlayer(_libVLC) {};                
+                MediaPlayer = new MediaPlayer(_libVLC);
 
             }
         }
@@ -51,8 +51,7 @@ namespace AvaVLCControl.ViewModels
         {
             if (_libVLC != null && MediaPlayer != null)
             {
-                
-                using var media = new Media(_libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"));                
+                using var media = new Media(_libVLC, new Uri("http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"));
                 MediaPlayer.Play(media);
                 media.Dispose();
             }

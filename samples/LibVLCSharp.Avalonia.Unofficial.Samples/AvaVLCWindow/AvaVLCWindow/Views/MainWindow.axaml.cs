@@ -1,7 +1,7 @@
 using Avalonia.Controls;
 using Avalonia.Media;
 using AvaVLCWindow.ViewModels;
-using LibVLCSharp.Avalonia;
+using LibVLCSharp.Avalonia.Unofficial;
 
 namespace AvaVLCWindow.Views
 {

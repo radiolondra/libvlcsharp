@@ -1,6 +1,6 @@
 using Avalonia.Controls;
 using AvaVLCControl.ViewModels;
-using LibVLCSharp.Avalonia;
+using LibVLCSharp.Avalonia.Unofficial;
 
 namespace AvaVLCControl.Views
 {

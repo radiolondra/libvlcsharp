@@ -2,7 +2,7 @@ using Avalonia;
 using Avalonia.Controls;
 using Avalonia.Markup.Xaml;
 using AvaVLCControl.ViewModels;
-using LibVLCSharp.Avalonia;
+using LibVLCSharp.Avalonia.Unofficial;
 using System;
 
 namespace AvaVLCControl.Views

@@ -3,7 +3,7 @@
         xmlns:vm="using:AvaVLCWindow.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-		xmlns:vlcsharp="clr-namespace:LibVLCSharp.Avalonia;assembly=LibVLCSharp.Avalonia"
+		xmlns:vlcsharp="clr-namespace:LibVLCSharp.Avalonia.Unofficial;assembly=LibVLCSharp.Avalonia.Unofficial"
         mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="300"
         x:Class="AvaVLCWindow.Views.MainWindow"		
 		xmlns:controls="using:AvaVLCWindow.Views"
@@ -18,13 +18,13 @@
 
 			<vlcsharp:VideoView
 				HorizontalAlignment="Stretch"
-				VerticalAlignment="Stretch"
+				VerticalAlignment="Stretch"				
 				x:Name="VideoViewer">
 
 				<!-- Content -->
 				<Panel
 					VerticalAlignment="Bottom"
-					Opacity="0.8"
+					Opacity="0.8"					
 					Background="Gray">
 					<controls:PlayerControls/>
 				</Panel>
