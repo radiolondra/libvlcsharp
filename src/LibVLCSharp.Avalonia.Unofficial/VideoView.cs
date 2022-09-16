@@ -20,7 +20,7 @@ using Avalonia.Input;
 using System.Diagnostics;
 using Avalonia.Media.Immutable;
 
-namespace LibVLCSharp.Avalonia
+namespace LibVLCSharp.Avalonia.Unofficial
 {
     /// <summary>
     ///     Avalonia VideoView for Windows, Linux and Mac.
@@ -116,9 +116,9 @@ namespace LibVLCSharp.Avalonia
                     ShowInTaskbar = false,
                     
                     //Topmost=true,
-                    ZIndex = 2147483647,
+                    ZIndex = Int32.MaxValue,
 
-                    Opacity = 1,
+                    Opacity = 1,                    
                     
                 };
                                 
@@ -135,6 +135,7 @@ namespace LibVLCSharp.Avalonia
                     .Subscribe(_ => UpdateOverlayPosition())
                 };
                 
+
             }
 
             ShowNativeOverlay(IsEffectivelyVisible);
