@@ -17,6 +17,6 @@ The [samples](https://github.com/radiolondra/libvlcsharp/tree/3.x/samples/LibVLC
 The samples have been successfully tested on Windows 10, Kubuntu 18.04, MacOS 10.13 and on Raspberry pi3 model B with DietPi (META) as OS.
 Use them as starting points for your own projects and to learn how the whole thing is working.
 
-#### ToDo
-- Add customizable event handlers
-- Add the ability to use multiple, configurable layers on top of VideoView, allowing to accomodate a set of new objects with dynamic properties. 
+#### News
+
+- To use multiple, configurable layers on top of VideoView, allowing to accomodate a set of new moveable objects with dynamic properties, please go to the [LibVLCSharp.Avalonia.Unofficial.UCanvas](https://github.com/radiolondra/libvlcsharp/tree/3.x/src/LibVLCSharp.Avalonia.Unofficial.UCanvas) project.
