@@ -28,8 +28,8 @@ LibVLC needs to be installed separately, see VideoLAN.LibVLC.* packages.
     <None Remove="!saved\**" />
   </ItemGroup>  
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.10.13" />
-    <PackageReference Include="CSharpFunctionalExtensions" Version="2.29.0" />
+    <PackageReference Include="Avalonia" Version="0.10.18" />
+    <PackageReference Include="CSharpFunctionalExtensions" Version="2.34.0" />
     <PackageReference Include="LibVLCSharp" Version="3.6.6" />
     <PackageReference Include="System.Runtime.InteropServices.RuntimeInformation" Version="4.3.0" />
   </ItemGroup>
